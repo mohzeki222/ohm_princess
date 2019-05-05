@@ -15,17 +15,6 @@
 * nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されるよ
 * Open in Colab: [Google Colaboratory](https://colab.research.google.com/)上で実行できるよ
 
-４章のChapter4-fashion_mnist.ipynbからは自作魔法集「princess.py」を利用するから、
-最初に
-```
-from google.colab import files
-uploaded = files.upload()
-```
-というColaboratoryのための魔法の言葉も追加しておいたよ。
-これを実行するとファイルをColaboratoryへアップロードして利用することができるから自作魔法集を追加して試しに動かしてみてね。
-あとGPUを利用するときは、「ランタイム」から「ランタイムのタイプを変更」、「ハードウェアアクセラレータ」で「GPU」を選択してから始めてね。
-もしも今使っている魔法の鏡にGPUが潜んでいないようだったら、この機能を使って試してみると良いよ！
-
 ![お茶会](https://user-images.githubusercontent.com/7970619/57186613-6b831c00-6f1d-11e9-9cf7-5ad10a6552de.jpg)
 
 章|タイトル|nbviewer|Open in Colab|自作魔法集利用|GPU利用|
@@ -46,6 +35,19 @@ uploaded = files.upload()
 
 ![こびと](https://user-images.githubusercontent.com/7970619/57187330-b0ac4b80-6f27-11e9-882a-f3b014b6a16d.jpg)
 
+４章のChapter4-fashion_mnist.ipynbからは自作魔法集「princess.py」を利用するから、
+最初に
+```
+from google.colab import files
+uploaded = files.upload()
+```
+というColaboratoryのための魔法の言葉も追加しておいたよ。
+これを実行するとファイルをColaboratoryへアップロードして利用することができるから自作魔法集を追加して試しに動かしてみてね。
+あとGPUを利用するときは、「ランタイム」から「ランタイムのタイプを変更」、「ハードウェアアクセラレータ」で「GPU」を選択してから始めてね。
+もしも今使っている魔法の鏡にGPUが潜んでいないようだったら、この機能を使って試してみると良いよ！
+
+![GPU](https://user-images.githubusercontent.com/7970619/57194571-6062d700-6f83-11e9-9d31-a5c1422af698.png)
+
 ## 魔法の鏡の活躍ぶりの記録
 
 お妃様のところに置かれた魔法の鏡はお城にすっかり馴染んで、この国を守っている様子。
@@ -58,4 +60,6 @@ uploaded = files.upload()
 もちろん私と魔法の鏡の出会いの記録が書かれた本も見つかるよ。
 
 [「Pythonで機械学習入門-深層学習から敵対的生成ネットワークまで-」](https://www.ohmsha.co.jp/book/9784274222863/)
+
+![白雪姫３章_イラスト04](https://user-images.githubusercontent.com/7970619/57194602-a61f9f80-6f83-11e9-992c-d4bbfa51e054.jpg)
 
