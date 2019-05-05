@@ -28,9 +28,9 @@ def download_figs():
     
     url_list = []
     for i in range(19):
-        url = "https://github.com/mohzeki222/ohm_princess/blob/master/notes/princess_fig/sira{:02}.jpg".format(i)
+        url = "https://github.com/mohzeki222/ohm_princess/blob/master/notes/princess_fig/kisaki{:02}.jpg".format(i)
         url_list.append(url)
-    download_dir = "/princess_fig"
+    download_dir = "princess_fig"
     for url in url_list:
         filename = os.path.basename(url)
         dst_path = os.path.join(download_dir, filename)
@@ -40,7 +40,7 @@ def download_figs():
     for i in range(8):
         url = "https://github.com/mohzeki222/ohm_princess/blob/master/notes/white_fig/sira{:02}.jpg".format(i)
         url_list.append(url)
-    download_dir = "/white_fig"
+    download_dir = "white_fig"
     for url in url_list:
         filename = os.path.basename(url)
         dst_path = os.path.join(download_dir, filename)
