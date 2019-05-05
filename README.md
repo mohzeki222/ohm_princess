@@ -48,6 +48,16 @@ uploaded = files.upload()
 
 ![GPU](https://user-images.githubusercontent.com/7970619/57194571-6062d700-6f83-11e9-9d31-a5c1422af698.png)
 
+７章ではお妃様の画像と私の画像コレクションのダウンロード用のモジュール「download_figs()」を利用します。
+これは日記帳には書いていないけど、「[princess.py](https://github.com/mohzeki222/ohm_princess/blob/master/notes/princess.py)」に追加しておいたよ。
+```
+!mkdir princess_fig
+!mkdir white_fig
+ohm.download_figs()
+```
+を実行すると画像コレクションがダウンロードされて利用できます。
+勝手に他の目的で利用したらダメだよ。魔法の鏡に記録が残っているんだからね。
+
 ## 魔法の鏡の活躍ぶりの記録
 
 お妃様のところに置かれた魔法の鏡はお城にすっかり馴染んで、この国を守っている様子。
