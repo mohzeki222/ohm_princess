@@ -1,3 +1,11 @@
+<link href="/parts/web.css" rel="stylesheet"></link>
+
+<div>Balloon Test</div>
+<div class="balloon">
+  <p>hogehoge</p>
+  <p>fugafuga</p>
+</div>
+
 # 白雪姫の古文書研究ノート
 
 <img src="https://user-images.githubusercontent.com/7970619/57186632-cae12c00-6f1d-11e9-9ccd-1a136344ce8a.jpg" align="right" width="240px">私の研究成果をまとめた「Pythonで機械学習入門-深層学習から敵対的生成ネットワークまで-」を読んでくれた読者の皆さんどうもありがとう。
