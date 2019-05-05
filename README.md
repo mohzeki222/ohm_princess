@@ -11,8 +11,17 @@
 
 ## 白雪姫の書いた魔法の言葉
 
-* nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されます
-* Open in Colab: [Google Colaboratory](https://colab.research.google.com/)上で実行できます
+* nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されるよ
+* Open in Colab: [Google Colaboratory](https://colab.research.google.com/)上で実行できるよ
+
+４章からは自作魔法集「princess.py」を利用するから、
+最初に
+```
+from google.colab import files
+uploaded = files.upload()
+```
+を追加しておいたよ。
+これを実行するとファイルをColaboratoryへアップロードして利用することができるから自作魔法集を追加して試しに動かしてみてね。
 
 ![お茶会](https://user-images.githubusercontent.com/7970619/57186613-6b831c00-6f1d-11e9-9cf7-5ad10a6552de.jpg)
 
