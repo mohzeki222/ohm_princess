@@ -5,42 +5,6 @@
 大事な記録は魔法の鏡に付属していた星型の記録装置を使って残しておいたから、私が実際に書いた魔法の言葉をここに公開しておくね。
 その魔法の言葉を、みんなの魔法の鏡に書き込んでも良いし、Google Colaboratory上で書き込んでも良いように準備しておいたよ。
 
-.balloon {
-  position:relative;
-  margin-top:10px;
-  padding:0 1rem;
-  border-radius:5px;
-  border:1px solid #999;    /* border-color     => ::before */
-  background-color:#e0e0e0; /* background-color => ::after  */
-}
-
-.balloon::before,
-.balloon::after {
-  content:"";
-  display:block;
-  position:absolute;
-  left:2rem;
-  width:0;
-  height:0;
-  border:10px solid transparent;
-}
-
-.balloon::before {
-  top:-20px;
-  border-bottom-color:#999; /* border-color */
-}
-
-.balloon::after {
-  top:-
-
-<div>Balloon Test</div>
-<div class="balloon">
-  <p>hogehoge</p>
-  <p>fugafuga</p>
-</div>
-
-<p>Author : <a href="http://neo.s21.xrea.com/">Neo</a></p>
-
 もしも魔法の言葉が正しく動作しないことがあった場合は [issues](https://github.com/mohzeki222/ohm_princess/issues) で教えてね。
 
 ![白雪姫１章_イラスト08](https://user-images.githubusercontent.com/7970619/57186627-c157c400-6f1d-11e9-8a43-debcab494b56.jpg)
