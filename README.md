@@ -11,7 +11,8 @@
 
 ## 白雪姫の書いた魔法の言葉
 
-<img src="https://user-images.githubusercontent.com/7970619/57187301-4a272d80-6f27-11e9-9604-bd5d7271f4db.jpg" align="right" width="240px">* nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されます
+<img src="https://user-images.githubusercontent.com/7970619/57187301-4a272d80-6f27-11e9-9604-bd5d7271f4db.jpg" align="right" width="240px">
+* nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されます
 * Open in Colab: [Colaboratory](https://colab.research.google.com/)上で実行できます
 
 ![お茶会](https://user-images.githubusercontent.com/7970619/57186613-6b831c00-6f1d-11e9-9cf7-5ad10a6552de.jpg)
