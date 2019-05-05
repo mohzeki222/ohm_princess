@@ -13,6 +13,15 @@ from tqdm import tqdm
 import os
 import PIL.Image as im        
 
+import urllib.request
+import sys
+
+def download_figs():
+
+    url = "https://github.com/mohzeki222/ohm_princess/blob/master/notes/princess.py"
+    title = princess2.py
+    urllib.request.urlretrieve(url,title)
+    
 class ResBlock(Chain):
     def __init__(self, ch, bn=True):
         layers = {}
