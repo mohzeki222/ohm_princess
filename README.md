@@ -57,7 +57,8 @@ uploaded = files.upload()
 
 [「ベイズ推定入門-モデル選択からベイズ的最適化まで-」](https://www.ohmsha.co.jp/book/9784274221392/)
 
-<img src="https://user-images.githubusercontent.com/7970619/57194621-e0893c80-6f83-11e9-8480-25f3ce851c3d.jpg" align="right" width="240px">もちろん私と魔法の鏡の出会いの記録が書かれた本も見つかるよ。
+<img src="https://user-images.githubusercontent.com/7970619/57194621-e0893c80-6f83-11e9-8480-25f3ce851c3d.jpg" align="right" width="240px">ふふふ。実は魔法の鏡は同期していて、お妃様の動きもキャッチしているのよ。国の発展のお役に立てて本当に良かった。
+もちろん私と魔法の鏡の出会いの記録が書かれた本も知識の泉から見つかるよ。
 
 [「Pythonで機械学習入門-深層学習から敵対的生成ネットワークまで-」](https://www.ohmsha.co.jp/book/9784274222863/)
 
