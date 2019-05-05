@@ -11,7 +11,6 @@
 
 ## 白雪姫の書いた魔法の言葉
 
-<img src="https://user-images.githubusercontent.com/7970619/57187301-4a272d80-6f27-11e9-9604-bd5d7271f4db.jpg" align="right" width="240px">
 * nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されます
 * Open in Colab: [Colaboratory](https://colab.research.google.com/)上で実行できます
 
@@ -33,3 +32,4 @@
 　|Chapter7-GAN.ipynb |[![nbviewer](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/mohzeki222/ohm_princess/blob/master/notes/Chapter7-GAN.ipynb)|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mohzeki222/ohm_princess/blob/master/notes/Chapter7-GAN.ipynb)
 付録|Appendix-CycleGAN.ipynb |[![nbviewer](https://camo.githubusercontent.com/bfeb5472ee3df9b7c63ea3b260dc0c679be90b97/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f72656e6465722d6e627669657765722d6f72616e67652e7376673f636f6c6f72423d66333736323626636f6c6f72413d346434643464)](https://nbviewer.jupyter.org/github/mohzeki222/ohm_princess/blob/master/notes/Appendix-CycleGAN.ipynb)|[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mohzeki222/ohm_princess/blob/master/notes/Appendix-CycleGAN.ipynb)
 
+![こびと](https://user-images.githubusercontent.com/7970619/57187330-b0ac4b80-6f27-11e9-882a-f3b014b6a16d.jpg)
