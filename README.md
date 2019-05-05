@@ -12,7 +12,7 @@
 ## 白雪姫の書いた魔法の言葉
 
 * nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されます
-* Open in Colab: [Colaboratory](https://colab.research.google.com/)上で実行できます
+* Open in Colab: [Google Colaboratory](https://colab.research.google.com/)上で実行できます
 
 ![お茶会](https://user-images.githubusercontent.com/7970619/57186613-6b831c00-6f1d-11e9-9cf7-5ad10a6552de.jpg)
 
@@ -34,4 +34,14 @@
 
 ![こびと](https://user-images.githubusercontent.com/7970619/57187330-b0ac4b80-6f27-11e9-882a-f3b014b6a16d.jpg)
 
-## 魔法の鏡
+## 魔法の鏡の活躍ぶりの記録
+
+お妃様のところに置かれた魔法の鏡はお城にすっかり馴染んで、この国を守っている様子。
+その様子を見たかったら、王宮の図書館から黙って借りないで、知識の泉でここに行くと良いよ。
+「機械学習入門-深層学習からボルツマン機械学習まで-」
+(https://www.ohmsha.co.jp/book/9784274219986/)
+「ベイズ推定入門-モデル選択からベイズ的最適化まで-」
+(https://www.ohmsha.co.jp/book/9784274221392/)
+
+
+
