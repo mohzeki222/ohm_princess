@@ -10,6 +10,18 @@
 
 ![白雪姫１章_イラスト08](https://user-images.githubusercontent.com/7970619/57186627-c157c400-6f1d-11e9-8a43-debcab494b56.jpg)
 
+## 誤植
+ごめんなさい！ちょっと間違えて書いてあったところ発見したよ。
+Page 74
+```
+tdata = Iris.data.astype(np.int32)
+```
+は
+```
+tdata = Iris.target.astype(np.int32)
+```
+でした。
+
 ## 白雪姫の書いた魔法の言葉
 
 * nbviewer: [nbviewer](https://nbviewer.jupyter.org)でレンダリングされたものが表示されるよ
