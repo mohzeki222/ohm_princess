@@ -10,7 +10,7 @@
 
 ![白雪姫１章_イラスト08](https://user-images.githubusercontent.com/7970619/57186627-c157c400-6f1d-11e9-8a43-debcab494b56.jpg)
 
-## 誤植
+## 誤植の発見
 ごめんなさい！ちょっと間違えて書いてあったところ発見したよ。
 
 初版一刷・Page 74
@@ -22,6 +22,53 @@ tdata = Iris.data.astype(np.int32)
 tdata = Iris.target.astype(np.int32)
 ```
 でした。
+
+初版一刷・Page 307
+```
+data = data.astype(np.int8)
+```
+は
+```
+data = data.astype(np.uint8)
+```
+でした。unit8というのはプラスとかマイナスとか符号がない整数値を扱うという意味だよ。
+
+Page 313
+```
+import PIL.image as im
+```
+は
+```
+import PIL.Image as im
+```
+でした。ごめんなさい！
+
+Page344にohm.plot_resultという魔法を書いちゃったけど、
+これはplot_result2の魔法を作り変えたもので、記録を残しておくのを忘れていたみたい。ごめんなさい。
+自作魔法princess.pyで
+```
+def plot_result(result,title,xlabel,ylabel,ymin=0.0, ymax=1.0):
+  Tall = len(result)
+  plt.figure(figsize=(8,6))
+  plt.plot(range(Tall), result1)
+  plt.title(title) 
+  plt.xlabel(xlabel)  
+  plt.ylabel(ylabel)   
+  plt.xlim([0,Tall])   
+  plt.ylim([ymin,ymax])   
+  plt.show()
+```
+というものを追加しましょう！
+
+Page343で
+```
+ohm.temp_image(train_iter.epoch, foldername + "/test", data[0],cuda.to_gpu(ztrain),ztest,gen,dis)
+```
+とありますが、
+```
+ohm.temp_image(train_iter.epoch, foldername + "/test",data[0],ztest,gen,dis)
+```
+の間違いでした。
 
 ## 白雪姫の書いた魔法の言葉
 
