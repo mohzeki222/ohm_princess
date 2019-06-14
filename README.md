@@ -60,6 +60,34 @@ def plot_result(result,title,xlabel,ylabel,ymin=0.0, ymax=1.0):
 ```
 というものを追加しましょう！
 
+またはPage344については、
+```
+ohm.plot_result(result[0],"loss_ function of gen", "step","loss function",0.0,0.6)
+```
+を
+```
+ohm.plot_result2(result[0],result[0],"loss_ function of gen", "step","loss function",0.0,0.6) 
+```
+としても良いよ。
+
+Page382にも同じようなところがあって、
+```
+ohm.plot_result(resultA[0],"loss_ function A to B of gen in training","step","loss function”,0.0,0.6)
+```
+は
+```
+ohm.plot_result2(resultA[0],resultA[0],"loss_ function A to B of gen in training","step","loss function”,0.0,0.6)
+```
+にして、
+```
+ohm.plot_result(resultB[0],"loss_ function B to A of gen in training","step","loss function",0.0,0.6)
+```
+の代わりに
+```
+ohm.plot_result2(resultB[0],resultB[0],"loss_ function B to A of gen in training","step","loss function",0.0,0.6)
+```
+とするのでも良いよ！
+
 Page343で
 ```
 ohm.temp_image(train_iter.epoch, foldername + "/test", data[0],cuda.to_gpu(ztrain),ztest,gen,dis)
