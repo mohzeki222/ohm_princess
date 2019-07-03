@@ -123,7 +123,8 @@ ohm.temp_image(train_iter.epoch, foldername + "/test",data[0],ztest,gen,dis)
 
 ![こびと](https://user-images.githubusercontent.com/7970619/57187330-b0ac4b80-6f27-11e9-882a-f3b014b6a16d.jpg)
 
-４章のChapter4-fashion_mnist.ipynbからは自作魔法集「[princess.py](https://github.com/mohzeki222/ohm_princess/blob/master/notes/princess.py)」を利用するから、
+Google Colaboratoryで実行する場合は、
+４章のChapter4-fashion_mnist.ipynbから自作魔法集「[princess.py](https://github.com/mohzeki222/ohm_princess/blob/master/notes/princess.py)」を利用するから、
 最初に
 ```
 from google.colab import files
